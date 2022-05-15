@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Choose Your Fighter
+            </h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/scorpion.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Scorpion</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem" id="liu-kang" data-name="Liu Kang">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/liu-kang-select.png" alt="Personagem Liu Kang">
+                </li>
+                
+                <li class="personagem" id="raiden" data-name="Raiden">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/raiden-select.png" alt="Personagem Raiden">
+                </li>
+
+                <li class="personagem" id="kung-lao" data-name="Kung Lao">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/kung-lao-select.png" alt="Personagem Kung Lao">
+                </li>
+
+                <li class="personagem selecionado" id="scorpion" data-name="Scorpion">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/scorpion-select.png" alt="Personagem Scorpion">
+                </li>
+                
+                <li class="personagem" id="shang-tsung" data-name="Shang Tsung">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/shang-tsung-select.png" alt="Personagem Shang Tsung">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="sub-zero" data-name="Sub-Zero">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/sub-zero-select.png" alt="Personagem Sub-Zero">
+                </li>
+                
+                <li class="personagem" id="sonya-blade" data-name="Sonya Blade">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/sonya-blade-select.png" alt="Personagem Sonya Blade">
+                </li>
+
+                <li class="personagem" id="jax-briggs" data-name="Jax Briggs">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/jax-briggs-select.png" alt="Personagem Jax Briggs">
+                </li>
+
+                <li class="personagem" id="johnny-cage" data-name="Johnny Cage">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/johnny-cage-select.png" alt="Personagem Johnny Cage">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/sub-zero.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Sub-Zero</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

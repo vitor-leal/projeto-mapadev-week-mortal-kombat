@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'ses';
+  /*OTF é suportado pela maioria dos navegadores mais modernos, menos o internet explorer */
+  src: url('../fontes/SevenElevenSerif.otf'); 
+}
