@@ -8,7 +8,7 @@ O Player 1 deve direcionar o cursor do mouse para o personagem que ele deseja es
 O personagem do Player 2 já inicia selecionado, sendo apresentado ao lado direito da tela e bloqueando a escolha do mesmo pelo Player 1.
 
 - Projeto original (personagens da Marvel): https://devemdobro.github.io/projeto-marvel-mapadev-week/ 
-- Projeto desenvolvido (personagens do Mortal Komabat 11): https://vitor-leal.github.io/projeto-mapadev-week-mortal-kombat/
+- Projeto desenvolvido (personagens do Mortal Kombat 11): https://vitor-leal.github.io/projeto-mapadev-week-mortal-kombat/
 
 ![](src/imagens/layout-mortal-kombat.gif)
 
