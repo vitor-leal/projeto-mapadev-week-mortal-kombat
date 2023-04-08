@@ -14,10 +14,10 @@ O personagem do Player 2 já inicia selecionado, sendo apresentado ao lado direi
 
 ## Linguagens utilizadas:
 
-- HTML 5
-- CSS 3
+- HTML5
+- CSS3
 - JavaScript
 
 ## Autor:
 
-Vítor Leal - Instagram: @vitleal_
+Vítor Leal
